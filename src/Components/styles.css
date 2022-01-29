@@ -1,5 +1,3 @@
-nes (187 sloc)  3.82 KB
-   
 html {
   box-sizing: border-box;
   width: 100vw;
@@ -14,8 +12,8 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: #212121;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
@@ -29,7 +27,7 @@ img {
 }
 
 /*
- * Стили компонента App
+ * РЎС‚РёР»Рё РєРѕРјРїРѕРЅРµРЅС‚Р° App
  */
 .App {
   display: grid;
@@ -39,9 +37,9 @@ img {
 }
 
 /*
- * Стили компонента Searchbar
+ * РЎС‚РёР»Рё РєРѕРјРїРѕРЅРµРЅС‚Р° Searchbar
  */
-.Searchbar {
+/* .Searchbar {
   top: 0;
   left: 0;
   position: sticky;
@@ -58,12 +56,12 @@ img {
   background-color: #3f51b5;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /*
- * Стили компонента SearchForm
+ * РЎС‚РёР»Рё РєРѕРјРїРѕРЅРµРЅС‚Р° SearchForm
  */
-.SearchForm {
+/* .SearchForm {
   display: flex;
   align-items: center;
   width: 100%;
@@ -71,14 +69,14 @@ img {
   background-color: #fff;
   border-radius: 3px;
   overflow: hidden;
-}
+} */
 
-.SearchForm-button {
+/* .SearchForm-button {
   display: inline-block;
   width: 48px;
   height: 48px;
   border: 0;
-  background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg');
+  background-image: url("https://image.flaticon.com/icons/svg/149/149852.svg");
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
@@ -118,12 +116,12 @@ img {
 .SearchForm-input::placeholder {
   font: inherit;
   font-size: 18px;
-}
+} */
 
 /*
- * Стили компонента ImageGallery
+ * РЎС‚РёР»Рё РєРѕРјРїРѕРЅРµРЅС‚Р° ImageGallery
  */
-.ImageGallery {
+/* .ImageGallery {
   display: grid;
   max-width: calc(100vw - 48px);
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -134,18 +132,18 @@ img {
   list-style: none;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /*
- * Стили компонента ImageGalleryItem
+ * РЎС‚РёР»Рё РєРѕРјРїРѕРЅРµРЅС‚Р° ImageGalleryItem
  */
-.ImageGalleryItem {
+/* .ImageGalleryItem {
   border-radius: 2px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-}
+} */
 
-.ImageGalleryItem-image {
+/* .ImageGalleryItem-image {
   width: 100%;
   height: 260px;
   object-fit: cover;
@@ -155,13 +153,13 @@ img {
 .ImageGalleryItem-image:hover {
   transform: scale(1.03);
   cursor: zoom-in;
-}
+} */
 
 /*
- * Стили компонента Modal
+ * РЎС‚РёР»Рё РєРѕРјРїРѕРЅРµРЅС‚Р° Modal
  */
 
-.Overlay {
+/* .Overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -177,12 +175,12 @@ img {
 .Modal {
   max-width: calc(100vw - 48px);
   max-height: calc(100vh - 24px);
-}
+} */
 
 /*
-* Стили компонента Buton (Load more)
+* РЎС‚РёР»Рё РєРѕРјРїРѕРЅРµРЅС‚Р° Buton (Load more)
 */
-.Button {
+/* .Button {
   padding: 8px 16px;
   border-radius: 2px;
   background-color: #3f51b5;
@@ -206,4 +204,4 @@ img {
 .Button:hover,
 .Button:focus {
   background-color: #303f9f;
-}
+} */
